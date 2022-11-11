@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-all
+  name: all-pass-through
   namespace: ingress-nginx    ## nginx ingress controller's namespace
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
